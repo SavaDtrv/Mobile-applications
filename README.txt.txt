@@ -1,1 +1,0 @@
-The project is written for the two free-elective disciplines: Mobile applications and Clean Code.
