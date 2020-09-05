@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/wifibutton"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+
+        android:text="Via Bluetooth"
+        android:textSize="25sp"
+        android:background="@drawable/buttonshape"
+        android:layout_above="@+id/samedevicebutton"
+        android:layout_marginBottom="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        />
+
+    <Button
+        android:id="@+id/samedevicebutton"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+
+        android:text="On Same Device"
+        android:textSize="25sp"
+        android:background="@drawable/buttonshape"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
